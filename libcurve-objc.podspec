@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "libcurve-objc"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "A libcurve port with no external depenedencies."
 
   s.description  = <<-DESC
