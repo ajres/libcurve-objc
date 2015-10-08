@@ -208,8 +208,8 @@ zsys_init (void)
     if (getenv ("ZSYS_LOGIDENT"))
         zsys_set_logident (getenv ("ZSYS_LOGIDENT"));
 
-    if (getenv ("ZSYS_LOGSENDER"))
-        zsys_set_logsender (getenv ("ZSYS_LOGSENDER"));
+    //if (getenv ("ZSYS_LOGSENDER"))
+        //zsys_set_logsender (getenv ("ZSYS_LOGSENDER"));
 
     return s_process_ctx;
 }
@@ -649,7 +649,7 @@ zsys_dir_create (const char *pathname, ...)
 {
     va_list argptr;
     va_start (argptr, pathname);
-    char *formatted = zsys_vprintf (pathname, argptr);
+    char *formatted = ""; //zsys_vprintf (pathname, argptr);
     va_end (argptr);
     if (!formatted)
         return -1;
@@ -693,7 +693,7 @@ zsys_dir_delete (const char *pathname, ...)
 {
     va_list argptr;
     va_start (argptr, pathname);
-    char *formatted = zsys_vprintf (pathname, argptr);
+    char *formatted = ""; //zsys_vprintf (pathname, argptr);
     va_end (argptr);
     if (!formatted)
         return -1;
@@ -783,7 +783,7 @@ zsys_sprintf (const char *format, ...)
 {
     va_list argptr;
     va_start (argptr, format);
-    char *string = zsys_vprintf (format, argptr);
+    char *string = ""; //zsys_vprintf (format, argptr);
     va_end (argptr);
     return (string);
 }

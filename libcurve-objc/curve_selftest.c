@@ -35,7 +35,7 @@ main (int argc, char *argv [])
 
     //curve_client_test (verbose);
     //curve_server_test (verbose);
-    curve_codec_test (verbose); 
+    //curve_codec_test (verbose);
     //curve_z85_test (verbose);
 
     printf ("Tests passed OK\n");
