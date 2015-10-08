@@ -39,7 +39,7 @@
 
 #include "include/curve.h"
 
-#include <sodium.h>
+#include <libsodium/sodium.h>
 
 #include "zcert.h"
 
