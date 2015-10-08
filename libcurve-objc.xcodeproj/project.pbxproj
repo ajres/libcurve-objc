@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6623523592B88DA69A5EC9FC /* libPods-libcurve-objc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5068225B20600AFC2BD9463C /* libPods-libcurve-objc.a */; };
+		A14F28901BC325510052D251 /* zmsg.c in Sources */ = {isa = PBXBuildFile; fileRef = A14F288E1BC325510052D251 /* zmsg.c */; };
+		A14F28931BC3C5B40052D251 /* zsys.c in Sources */ = {isa = PBXBuildFile; fileRef = A14F28921BC3C5B40052D251 /* zsys.c */; };
+		A17FA7761BB73B9D0061B62F /* curve_selftest.c in Sources */ = {isa = PBXBuildFile; fileRef = A17FA7701BB73B9D0061B62F /* curve_selftest.c */; };
+		A17FA7771BB73B9D0061B62F /* curve_codec.c in Sources */ = {isa = PBXBuildFile; fileRef = A17FA7711BB73B9D0061B62F /* curve_codec.c */; };
+		A17FA77C1BB896E10061B62F /* zcert.c in Sources */ = {isa = PBXBuildFile; fileRef = A17FA77B1BB896E10061B62F /* zcert.c */; };
+		A17FA77F1BB9E5200061B62F /* zhash.c in Sources */ = {isa = PBXBuildFile; fileRef = A17FA77E1BB9E5200061B62F /* zhash.c */; };
+		A17FA7811BB9E67C0061B62F /* zlist.c in Sources */ = {isa = PBXBuildFile; fileRef = A17FA7801BB9E67C0061B62F /* zlist.c */; };
+		A1C7EAEC1BBE81BE00795807 /* zframe.c in Sources */ = {isa = PBXBuildFile; fileRef = A1C7EAEB1BBE81BE00795807 /* zframe.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A17FA7531BB73B070061B62F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		32376686696874DD24223616 /* Pods-libcurve-objc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-libcurve-objc.debug.xcconfig"; path = "Pods/Target Support Files/Pods-libcurve-objc/Pods-libcurve-objc.debug.xcconfig"; sourceTree = "<group>"; };
+		5068225B20600AFC2BD9463C /* libPods-libcurve-objc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-libcurve-objc.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66C0677C4CEAC89772A40140 /* Pods-libcurve-objc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-libcurve-objc.release.xcconfig"; path = "Pods/Target Support Files/Pods-libcurve-objc/Pods-libcurve-objc.release.xcconfig"; sourceTree = "<group>"; };
+		A14F288E1BC325510052D251 /* zmsg.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zmsg.c; sourceTree = "<group>"; };
+		A14F288F1BC325510052D251 /* zmsg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zmsg.h; sourceTree = "<group>"; };
+		A14F28911BC3C5B40052D251 /* zsys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zsys.h; sourceTree = "<group>"; };
+		A14F28921BC3C5B40052D251 /* zsys.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zsys.c; sourceTree = "<group>"; };
+		A17FA7551BB73B070061B62F /* liblibcurve-objc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "liblibcurve-objc.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A17FA7621BB73B9D0061B62F /* curve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = curve.h; sourceTree = "<group>"; };
+		A17FA7631BB73B9D0061B62F /* curve_client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = curve_client.h; sourceTree = "<group>"; };
+		A17FA7641BB73B9D0061B62F /* curve_codec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = curve_codec.h; sourceTree = "<group>"; };
+		A17FA7651BB73B9D0061B62F /* curve_library.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = curve_library.h; sourceTree = "<group>"; };
+		A17FA7661BB73B9D0061B62F /* curve_server.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = curve_server.h; sourceTree = "<group>"; };
+		A17FA7671BB73B9D0061B62F /* curve_z85.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = curve_z85.h; sourceTree = "<group>"; };
+		A17FA7681BB73B9D0061B62F /* curve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = curve.h; path = include/curve.h; sourceTree = "<group>"; };
+		A17FA76B1BB73B9D0061B62F /* curve_library.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = curve_library.h; path = include/curve_library.h; sourceTree = "<group>"; };
+		A17FA76C1BB73B9D0061B62F /* curve_codec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = curve_codec.h; path = include/curve_codec.h; sourceTree = "<group>"; };
+		A17FA7701BB73B9D0061B62F /* curve_selftest.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = curve_selftest.c; sourceTree = "<group>"; };
+		A17FA7711BB73B9D0061B62F /* curve_codec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = curve_codec.c; sourceTree = "<group>"; };
+		A17FA7731BB73B9D0061B62F /* curve_classes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = curve_classes.h; sourceTree = "<group>"; };
+		A17FA77A1BB73C470061B62F /* shim.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = shim.h; sourceTree = "<group>"; };
+		A17FA77B1BB896E10061B62F /* zcert.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zcert.c; sourceTree = "<group>"; };
+		A17FA77D1BB89BDF0061B62F /* zcert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zcert.h; sourceTree = "<group>"; };
+		A17FA77E1BB9E5200061B62F /* zhash.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zhash.c; sourceTree = "<group>"; };
+		A17FA7801BB9E67C0061B62F /* zlist.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zlist.c; sourceTree = "<group>"; };
+		A17FA7821BB9E9E00061B62F /* zlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zlist.h; sourceTree = "<group>"; };
+		A17FA7831BB9EAFB0061B62F /* zhash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zhash.h; sourceTree = "<group>"; };
+		A1C7EAEB1BBE81BE00795807 /* zframe.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zframe.c; sourceTree = "<group>"; };
+		A1C7EAED1BBE83BE00795807 /* zframe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zframe.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A17FA7521BB73B070061B62F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6623523592B88DA69A5EC9FC /* libPods-libcurve-objc.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5119A12C6D83781A529A17D2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				32376686696874DD24223616 /* Pods-libcurve-objc.debug.xcconfig */,
+				66C0677C4CEAC89772A40140 /* Pods-libcurve-objc.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		86237F1ED41096015D8E064B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5068225B20600AFC2BD9463C /* libPods-libcurve-objc.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A17FA74C1BB73B070061B62F = {
+			isa = PBXGroup;
+			children = (
+				A17FA7571BB73B070061B62F /* libcurve-objc */,
+				A17FA7561BB73B070061B62F /* Products */,
+				5119A12C6D83781A529A17D2 /* Pods */,
+				86237F1ED41096015D8E064B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A17FA7561BB73B070061B62F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A17FA7551BB73B070061B62F /* liblibcurve-objc.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A17FA7571BB73B070061B62F /* libcurve-objc */ = {
+			isa = PBXGroup;
+			children = (
+				A17FA7791BB73C170061B62F /* zmq-shim */,
+				A17FA7611BB73B9D0061B62F /* include */,
+				A17FA7681BB73B9D0061B62F /* curve.h */,
+				A17FA76B1BB73B9D0061B62F /* curve_library.h */,
+				A17FA76C1BB73B9D0061B62F /* curve_codec.h */,
+				A17FA7701BB73B9D0061B62F /* curve_selftest.c */,
+				A17FA7711BB73B9D0061B62F /* curve_codec.c */,
+				A17FA7731BB73B9D0061B62F /* curve_classes.h */,
+			);
+			path = "libcurve-objc";
+			sourceTree = "<group>";
+		};
+		A17FA7611BB73B9D0061B62F /* include */ = {
+			isa = PBXGroup;
+			children = (
+				A17FA7621BB73B9D0061B62F /* curve.h */,
+				A17FA7631BB73B9D0061B62F /* curve_client.h */,
+				A17FA7641BB73B9D0061B62F /* curve_codec.h */,
+				A17FA7651BB73B9D0061B62F /* curve_library.h */,
+				A17FA7661BB73B9D0061B62F /* curve_server.h */,
+				A17FA7671BB73B9D0061B62F /* curve_z85.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		A17FA7791BB73C170061B62F /* zmq-shim */ = {
+			isa = PBXGroup;
+			children = (
+				A14F28911BC3C5B40052D251 /* zsys.h */,
+				A14F28921BC3C5B40052D251 /* zsys.c */,
+				A1C7EAED1BBE83BE00795807 /* zframe.h */,
+				A1C7EAEB1BBE81BE00795807 /* zframe.c */,
+				A17FA7831BB9EAFB0061B62F /* zhash.h */,
+				A17FA7821BB9E9E00061B62F /* zlist.h */,
+				A17FA7801BB9E67C0061B62F /* zlist.c */,
+				A17FA77E1BB9E5200061B62F /* zhash.c */,
+				A17FA77D1BB89BDF0061B62F /* zcert.h */,
+				A17FA77B1BB896E10061B62F /* zcert.c */,
+				A17FA77A1BB73C470061B62F /* shim.h */,
+				A14F288E1BC325510052D251 /* zmsg.c */,
+				A14F288F1BC325510052D251 /* zmsg.h */,
+			);
+			name = "zmq-shim";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A17FA7541BB73B070061B62F /* libcurve-objc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A17FA75E1BB73B070061B62F /* Build configuration list for PBXNativeTarget "libcurve-objc" */;
+			buildPhases = (
+				21CEFE0580A666036B864A7B /* Check Pods Manifest.lock */,
+				A17FA7511BB73B070061B62F /* Sources */,
+				A17FA7521BB73B070061B62F /* Frameworks */,
+				A17FA7531BB73B070061B62F /* CopyFiles */,
+				EA4D37C45DF44045F42B0898 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "libcurve-objc";
+			productName = "libcurve-objc";
+			productReference = A17FA7551BB73B070061B62F /* liblibcurve-objc.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A17FA74D1BB73B070061B62F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "novoĉo";
+				TargetAttributes = {
+					A17FA7541BB73B070061B62F = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = A17FA7501BB73B070061B62F /* Build configuration list for PBXProject "libcurve-objc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A17FA74C1BB73B070061B62F;
+			productRefGroup = A17FA7561BB73B070061B62F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A17FA7541BB73B070061B62F /* libcurve-objc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21CEFE0580A666036B864A7B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EA4D37C45DF44045F42B0898 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-libcurve-objc/Pods-libcurve-objc-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A17FA7511BB73B070061B62F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A14F28931BC3C5B40052D251 /* zsys.c in Sources */,
+				A14F28901BC325510052D251 /* zmsg.c in Sources */,
+				A17FA77C1BB896E10061B62F /* zcert.c in Sources */,
+				A17FA7811BB9E67C0061B62F /* zlist.c in Sources */,
+				A17FA7771BB73B9D0061B62F /* curve_codec.c in Sources */,
+				A17FA77F1BB9E5200061B62F /* zhash.c in Sources */,
+				A1C7EAEC1BBE81BE00795807 /* zframe.c in Sources */,
+				A17FA7761BB73B9D0061B62F /* curve_selftest.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A17FA75C1BB73B070061B62F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A17FA75D1BB73B070061B62F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A17FA75F1BB73B070061B62F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32376686696874DD24223616 /* Pods-libcurve-objc.debug.xcconfig */;
+			buildSettings = {
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A17FA7601BB73B070061B62F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66C0677C4CEAC89772A40140 /* Pods-libcurve-objc.release.xcconfig */;
+			buildSettings = {
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A17FA7501BB73B070061B62F /* Build configuration list for PBXProject "libcurve-objc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A17FA75C1BB73B070061B62F /* Debug */,
+				A17FA75D1BB73B070061B62F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A17FA75E1BB73B070061B62F /* Build configuration list for PBXNativeTarget "libcurve-objc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A17FA75F1BB73B070061B62F /* Debug */,
+				A17FA7601BB73B070061B62F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A17FA74D1BB73B070061B62F /* Project object */;
+}
