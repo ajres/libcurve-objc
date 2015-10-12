@@ -19,9 +19,7 @@ extern "C" {
 #endif
     
 #include <stdbool.h>
-#include "zcert.h"
-#include "zframe.h"
-#include "zhash.h"
+#include "curve.h"
 
 //  @interface
 //  Create a new curve_codec client instance. Caller provides the

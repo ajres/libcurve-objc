@@ -52,13 +52,13 @@
 		A17FA7711BB73B9D0061B62F /* curve_codec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = curve_codec.c; sourceTree = "<group>"; };
 		A17FA7731BB73B9D0061B62F /* curve_classes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = curve_classes.h; sourceTree = "<group>"; };
 		A17FA77B1BB896E10061B62F /* zcert.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zcert.c; sourceTree = "<group>"; };
-		A17FA77D1BB89BDF0061B62F /* zcert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zcert.h; sourceTree = "<group>"; };
+		A17FA77D1BB89BDF0061B62F /* zcert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = zcert.h; path = ../zcert.h; sourceTree = "<group>"; };
 		A17FA77E1BB9E5200061B62F /* zhash.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zhash.c; sourceTree = "<group>"; };
 		A17FA7801BB9E67C0061B62F /* zlist.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zlist.c; sourceTree = "<group>"; };
 		A17FA7821BB9E9E00061B62F /* zlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zlist.h; sourceTree = "<group>"; };
-		A17FA7831BB9EAFB0061B62F /* zhash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zhash.h; sourceTree = "<group>"; };
+		A17FA7831BB9EAFB0061B62F /* zhash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = zhash.h; path = ../zhash.h; sourceTree = "<group>"; };
 		A1C7EAEB1BBE81BE00795807 /* zframe.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zframe.c; sourceTree = "<group>"; };
-		A1C7EAED1BBE83BE00795807 /* zframe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zframe.h; sourceTree = "<group>"; };
+		A1C7EAED1BBE83BE00795807 /* zframe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = zframe.h; path = ../zframe.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +126,9 @@
 		A17FA7611BB73B9D0061B62F /* include */ = {
 			isa = PBXGroup;
 			children = (
+				A1C7EAED1BBE83BE00795807 /* zframe.h */,
+				A17FA77D1BB89BDF0061B62F /* zcert.h */,
+				A17FA7831BB9EAFB0061B62F /* zhash.h */,
 				A17FA7621BB73B9D0061B62F /* curve.h */,
 				A17FA7631BB73B9D0061B62F /* curve_client.h */,
 				A17FA7641BB73B9D0061B62F /* curve_codec.h */,
@@ -141,13 +144,10 @@
 			children = (
 				A14F28911BC3C5B40052D251 /* zsys.h */,
 				A14F28921BC3C5B40052D251 /* zsys.c */,
-				A1C7EAED1BBE83BE00795807 /* zframe.h */,
 				A1C7EAEB1BBE81BE00795807 /* zframe.c */,
-				A17FA7831BB9EAFB0061B62F /* zhash.h */,
 				A17FA7821BB9E9E00061B62F /* zlist.h */,
 				A17FA7801BB9E67C0061B62F /* zlist.c */,
 				A17FA77E1BB9E5200061B62F /* zhash.c */,
-				A17FA77D1BB89BDF0061B62F /* zcert.h */,
 				A17FA77B1BB896E10061B62F /* zcert.c */,
 				A14F288E1BC325510052D251 /* zmsg.c */,
 				A14F288F1BC325510052D251 /* zmsg.h */,

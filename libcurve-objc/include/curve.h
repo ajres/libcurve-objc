@@ -15,5 +15,8 @@
 #define __CURVE_H_INCLUDED__
 
 #include "curve_library.h"
+#include "zframe.h"
+#include "zcert.h"
+#include "zhash.h"
 
 #endif
