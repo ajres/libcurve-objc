@@ -29,7 +29,7 @@
 #include <unistd.h>
 #include <string.h>
 #include <sys/time.h>
-#include "shim.h"
+#include "curve.h"
 #include "zlist.h"
 #include "zsys.h"
 

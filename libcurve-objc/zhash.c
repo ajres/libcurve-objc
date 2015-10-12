@@ -40,7 +40,7 @@
 
 #include "zlist.h"
 #include "zhash.h"
-#include "shim.h"
+#include "curve.h"
 #include "zsys.h"
 #include "zcert.h"
 

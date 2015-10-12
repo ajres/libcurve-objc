@@ -51,7 +51,6 @@
 		A17FA7701BB73B9D0061B62F /* curve_selftest.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = curve_selftest.c; sourceTree = "<group>"; };
 		A17FA7711BB73B9D0061B62F /* curve_codec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = curve_codec.c; sourceTree = "<group>"; };
 		A17FA7731BB73B9D0061B62F /* curve_classes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = curve_classes.h; sourceTree = "<group>"; };
-		A17FA77A1BB73C470061B62F /* shim.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = shim.h; sourceTree = "<group>"; };
 		A17FA77B1BB896E10061B62F /* zcert.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zcert.c; sourceTree = "<group>"; };
 		A17FA77D1BB89BDF0061B62F /* zcert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zcert.h; sourceTree = "<group>"; };
 		A17FA77E1BB9E5200061B62F /* zhash.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zhash.c; sourceTree = "<group>"; };
@@ -150,7 +149,6 @@
 				A17FA77E1BB9E5200061B62F /* zhash.c */,
 				A17FA77D1BB89BDF0061B62F /* zcert.h */,
 				A17FA77B1BB896E10061B62F /* zcert.c */,
-				A17FA77A1BB73C470061B62F /* shim.h */,
 				A14F288E1BC325510052D251 /* zmsg.c */,
 				A14F288F1BC325510052D251 /* zmsg.h */,
 			);

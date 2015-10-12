@@ -9,7 +9,7 @@
 #ifndef zcert_h
 #define zcert_h
 
-typedef struct _zcert_t zcert_t;
+#include "curve.h"
 
 zcert_t *zcert_new_from (unsigned char *public_key, unsigned char *secret_key);
 

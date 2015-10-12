@@ -10,8 +10,7 @@
 #define zmsg_h
 
 #include <stdio.h>
-
-typedef struct zmq_msg_t {unsigned char _ [48];} zmq_msg_t;
+#include "curve.h"
 
 typedef void (zmq_free_fn) (void *data, void *hint);
 

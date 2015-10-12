@@ -40,7 +40,7 @@
 #include <stdbool.h>
 
 #include "zlist.h"
-#include "shim.h"
+#include "curve.h"
 
 //  List node, used internally only
 
