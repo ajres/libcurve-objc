@@ -34,17 +34,17 @@
 		32376686696874DD24223616 /* Pods-libcurve-objc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-libcurve-objc.debug.xcconfig"; path = "Pods/Target Support Files/Pods-libcurve-objc/Pods-libcurve-objc.debug.xcconfig"; sourceTree = "<group>"; };
 		5068225B20600AFC2BD9463C /* libPods-libcurve-objc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-libcurve-objc.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		66C0677C4CEAC89772A40140 /* Pods-libcurve-objc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-libcurve-objc.release.xcconfig"; path = "Pods/Target Support Files/Pods-libcurve-objc/Pods-libcurve-objc.release.xcconfig"; sourceTree = "<group>"; };
+		A1387FDB1BCBC9BF006CE9C6 /* zhash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zhash.h; sourceTree = "<group>"; };
+		A1387FDC1BCBC9BF006CE9C6 /* zframe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zframe.h; sourceTree = "<group>"; };
+		A1387FDD1BCBC9BF006CE9C6 /* zcert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zcert.h; sourceTree = "<group>"; };
 		A14F288E1BC325510052D251 /* zmsg.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zmsg.c; sourceTree = "<group>"; };
 		A14F288F1BC325510052D251 /* zmsg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zmsg.h; sourceTree = "<group>"; };
 		A14F28911BC3C5B40052D251 /* zsys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zsys.h; sourceTree = "<group>"; };
 		A14F28921BC3C5B40052D251 /* zsys.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zsys.c; sourceTree = "<group>"; };
 		A17FA7551BB73B070061B62F /* liblibcurve-objc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "liblibcurve-objc.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A17FA7621BB73B9D0061B62F /* curve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = curve.h; sourceTree = "<group>"; };
-		A17FA7631BB73B9D0061B62F /* curve_client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = curve_client.h; sourceTree = "<group>"; };
 		A17FA7641BB73B9D0061B62F /* curve_codec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = curve_codec.h; sourceTree = "<group>"; };
 		A17FA7651BB73B9D0061B62F /* curve_library.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = curve_library.h; sourceTree = "<group>"; };
-		A17FA7661BB73B9D0061B62F /* curve_server.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = curve_server.h; sourceTree = "<group>"; };
-		A17FA7671BB73B9D0061B62F /* curve_z85.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = curve_z85.h; sourceTree = "<group>"; };
 		A17FA7681BB73B9D0061B62F /* curve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = curve.h; path = include/curve.h; sourceTree = "<group>"; };
 		A17FA76B1BB73B9D0061B62F /* curve_library.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = curve_library.h; path = include/curve_library.h; sourceTree = "<group>"; };
 		A17FA76C1BB73B9D0061B62F /* curve_codec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = curve_codec.h; path = include/curve_codec.h; sourceTree = "<group>"; };
@@ -52,13 +52,10 @@
 		A17FA7711BB73B9D0061B62F /* curve_codec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = curve_codec.c; sourceTree = "<group>"; };
 		A17FA7731BB73B9D0061B62F /* curve_classes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = curve_classes.h; sourceTree = "<group>"; };
 		A17FA77B1BB896E10061B62F /* zcert.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zcert.c; sourceTree = "<group>"; };
-		A17FA77D1BB89BDF0061B62F /* zcert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = zcert.h; path = ../zcert.h; sourceTree = "<group>"; };
 		A17FA77E1BB9E5200061B62F /* zhash.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zhash.c; sourceTree = "<group>"; };
 		A17FA7801BB9E67C0061B62F /* zlist.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zlist.c; sourceTree = "<group>"; };
 		A17FA7821BB9E9E00061B62F /* zlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zlist.h; sourceTree = "<group>"; };
-		A17FA7831BB9EAFB0061B62F /* zhash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = zhash.h; path = ../zhash.h; sourceTree = "<group>"; };
 		A1C7EAEB1BBE81BE00795807 /* zframe.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zframe.c; sourceTree = "<group>"; };
-		A1C7EAED1BBE83BE00795807 /* zframe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = zframe.h; path = ../zframe.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,15 +123,12 @@
 		A17FA7611BB73B9D0061B62F /* include */ = {
 			isa = PBXGroup;
 			children = (
-				A1C7EAED1BBE83BE00795807 /* zframe.h */,
-				A17FA77D1BB89BDF0061B62F /* zcert.h */,
-				A17FA7831BB9EAFB0061B62F /* zhash.h */,
+				A1387FDB1BCBC9BF006CE9C6 /* zhash.h */,
+				A1387FDC1BCBC9BF006CE9C6 /* zframe.h */,
+				A1387FDD1BCBC9BF006CE9C6 /* zcert.h */,
 				A17FA7621BB73B9D0061B62F /* curve.h */,
-				A17FA7631BB73B9D0061B62F /* curve_client.h */,
 				A17FA7641BB73B9D0061B62F /* curve_codec.h */,
 				A17FA7651BB73B9D0061B62F /* curve_library.h */,
-				A17FA7661BB73B9D0061B62F /* curve_server.h */,
-				A17FA7671BB73B9D0061B62F /* curve_z85.h */,
 			);
 			path = include;
 			sourceTree = "<group>";
