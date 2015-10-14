@@ -39,7 +39,10 @@
 
 #include "include/curve.h"
 
-#include "sodium.h"
+//#include "sodium.h"
+#include "crypto_box.h"
+#include "crypto_secretbox.h"
+#include "randombytes.h"
 
 #include "zcert.h"
 
