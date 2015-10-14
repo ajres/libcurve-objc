@@ -15,6 +15,7 @@
 		A17FA77C1BB896E10061B62F /* zcert.c in Sources */ = {isa = PBXBuildFile; fileRef = A17FA77B1BB896E10061B62F /* zcert.c */; };
 		A17FA77F1BB9E5200061B62F /* zhash.c in Sources */ = {isa = PBXBuildFile; fileRef = A17FA77E1BB9E5200061B62F /* zhash.c */; };
 		A17FA7811BB9E67C0061B62F /* zlist.c in Sources */ = {isa = PBXBuildFile; fileRef = A17FA7801BB9E67C0061B62F /* zlist.c */; };
+		A1ADBC011BCE61DB0022D3A0 /* Dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1ADBC001BCE61DB0022D3A0 /* Dummy.m */; };
 		A1C7EAEC1BBE81BE00795807 /* zframe.c in Sources */ = {isa = PBXBuildFile; fileRef = A1C7EAEB1BBE81BE00795807 /* zframe.c */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +56,8 @@
 		A17FA77B1BB896E10061B62F /* zcert.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zcert.c; sourceTree = "<group>"; };
 		A17FA77E1BB9E5200061B62F /* zhash.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zhash.c; sourceTree = "<group>"; };
 		A17FA7801BB9E67C0061B62F /* zlist.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zlist.c; sourceTree = "<group>"; };
+		A1ADBBFF1BCE61DB0022D3A0 /* Dummy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dummy.h; sourceTree = "<group>"; };
+		A1ADBC001BCE61DB0022D3A0 /* Dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dummy.m; sourceTree = "<group>"; };
 		A1C7EAEB1BBE81BE00795807 /* zframe.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zframe.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -116,6 +119,8 @@
 				A17FA7701BB73B9D0061B62F /* curve_selftest.c */,
 				A17FA7711BB73B9D0061B62F /* curve_codec.c */,
 				A17FA7731BB73B9D0061B62F /* curve_classes.h */,
+				A1ADBBFF1BCE61DB0022D3A0 /* Dummy.h */,
+				A1ADBC001BCE61DB0022D3A0 /* Dummy.m */,
 			);
 			path = "libcurve-objc";
 			sourceTree = "<group>";
@@ -242,6 +247,7 @@
 			files = (
 				A14F28931BC3C5B40052D251 /* zsys.c in Sources */,
 				A14F28901BC325510052D251 /* zmsg.c in Sources */,
+				A1ADBC011BCE61DB0022D3A0 /* Dummy.m in Sources */,
 				A17FA77C1BB896E10061B62F /* zcert.c in Sources */,
 				A17FA7811BB9E67C0061B62F /* zlist.c in Sources */,
 				A17FA7771BB73B9D0061B62F /* curve_codec.c in Sources */,
